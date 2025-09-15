@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bringing Web Pages to Life with CSS & JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+<header>
+    <h1>Assignment: CSS & JavaScript in Action</h1>
+    <p>A simple demonstration of CSS transitions, keyframe animations, and JavaScript functions.</p>
+</header>
+
+<main>
+    <!-- Part 1: CSS3 Transitions and Animations -->
+    <!-- This section styles using only CSS to react to user interaction. -->
+    <section class="assignment-section">
+        <h2>Part 1: CSS-Only Effects</h2>
+        <p>Hover over the button below to see a CSS transition and a keyframe animation in action. This is done purely with CSS.</p>
+        <button class="animated-button">Hover Over Me</button>
+    </section>
+
+    <!-- Part 2: JavaScript Functions -->
+    <!-- This section demonstrates the logic behind the scenes, without visual elements. -->
+    <section class="assignment-section">
+        <h2>Part 2: JavaScript Functions & Logic</h2>
+        <p>
+            The JavaScript file contains functions that demonstrate scope, parameters, and return values.
+             Check the browser's console (F12 or Ctrl+Shift+I) when you load the page to see the output from the functions.
+        </p>
+        <div id="js-output-area">
+            <!-- JavaScript will populate this area to show function outputs -->
+        </div>
+    </section>
+
+    <!-- Part 3: Combining CSS Animations with JavaScript -->
+    <!-- This is where CSS and JS work together. -->
+    <section class="assignment-section">
+        <h2>Part 3: CSS + JavaScript Integration</h2>
+        <p>Click the button below to trigger a CSS animation on the box. The JavaScript code adds a new CSS class to the box, which starts the animation.</p>
+        <button id="triggerButton">Animate the Box</button>
+        <!-- The "box-to-animate" class will be styled by CSS, but the "is-active" class will be added by JavaScript -->
+        <div id="animationBox" class="box-to-animate"></div>
+    </section>
+</main>
+
+<footer>
+    <p>Script loaded from external file: &copy; Affy 2025 </p>
+    <script src="script.js"></script>
+</footer>
+
+    <script> src="script.js" </script>
+</body>
+</html>
